@@ -33,16 +33,46 @@
 }
  
 /* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #app-features-2 .feature-4 {
+         width: 100%;
+         margin-left: 0px;
+    }
     .container {
         max-width: 650px;
+    }
+    img.bounce-effect {
+        width: 216px;
     }
     .mean-container .mean-nav ul li a {
         padding: 11px 12px;
     }
+    #phone{width: 270px}
 }
 
 @media (max-width: 479px) {
+    .show-box img{width: 320px}
+    #app-features-2 .feature-4 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+#app-features-2 .feature-4 {
+     margin-left: 0px;
+}
+    .scroll-bg-content h1 {
+        font-size: 34px;
+    }
+    .demopadding {
+        width: 345px;
+        text-align: left;
+    }
+    .footer-items h3{padding-top: 25px}
+    .scroll-bg-content p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    #services3 .service-single{margin-bottom: 25px; padding: 25px;height: 325px}
     .banner-text h1 {
         font-size: 31px;
         color: #0B2540;
