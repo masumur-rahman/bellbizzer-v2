@@ -1799,8 +1799,7 @@ button:hover {
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
 	padding:15px 5px 0px;
-	width: 328px;
-	/*margin-left: 48px;*/
+
 }
 #app-features .feature-5{
 	border: 1px solid #EB5757;
