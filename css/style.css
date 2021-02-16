@@ -1681,10 +1681,10 @@ input, select {
 	/*font-family: Product Sans;*/
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 15px;
 	color: #FFF;
 	background: #951BB9;
-	height: 52px;
+	height: 54px;
 	border: none;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -1697,7 +1697,7 @@ input, select {
 	font-size: 14px !important;
 	box-shadow: none !important;
 	width: 320px;
-	height: 51px !important;
+	height: 55px !important;
 	padding: 0 20px;
 	transition: all 0.3s;
 	border-top-left-radius: 10px!important;
@@ -1800,6 +1800,13 @@ button:hover {
 	border-radius: 20px;
 	padding:15px 5px 0px;
 
+}
+button:focus {
+	outline: 0px dotted;
+	outline: 0px auto -webkit-focus-ring-color;
+}
+:focus {
+	outline: -webkit-focus-ring-color auto 0px;
 }
 #app-features .feature-5{
 	border: 1px solid #EB5757;
