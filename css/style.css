@@ -450,7 +450,7 @@ label {
 }
 .banner {
 	position:relative;
-	height:100%x;
+	height:100%;
 	padding-top:130px;
 	/*padding-bottom:100px;*/
 	overflow:hidden;
@@ -493,7 +493,7 @@ label {
 }
 
 .banner-text p {
-	font-family: Product Sans;
+	/*font-family: Product Sans;*/
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -594,89 +594,7 @@ img.bounce-effect{width: 300px}
 }
 
 /* Wave effect */
-.wave-effect {
-	position:absolute;
-	z-index:1;
-	left:0;
-	right:0;
-	bottom:0;
-	margin:auto;
-	height:150px;
-	overflow:hidden;
-}
 
-.waves-shape.shape-one {
-	z-index:15;
-	opacity:0.5;
-}
-
-.waves-shape.shape-two {
-	z-index:10;
-	opacity:0.75;
-}
-
-.waves-shape.shape-three {
-	z-index:5;
-}
-
-.wave {
-	position:absolute;
-	left:0;
-	width:200%;
-	height:100%;
-	background-repeat:repeat no-repeat;
-	background-position:0 bottom;
-	transform-origin:center bottom;
-}
-
-.waves-shape {
-	position: absolute;
-	bottom: -1px;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-
-.wave-one {
-	background-image:url('../img/wave-1.png');
-	background-size:50% 100px;
-}
-
-.wave-two {
-	background-image:url('../img/wave-2.png');
-	background-size:50% 120px;
-}
-
-.wave-anim .wave-two {
-	-webkit-animation:move-wave 10s linear infinite;
-	-moz-animation:move-wave 10s linear infinite;
-	animation:move-wave 10s linear infinite;
-}
-
-.wave-three {
-	background-image:url('../img/wave-3.png');
-	background-size:50% 100px;
-}
-
-.wave-anim .wave-three {
-	-webkit-animation:move-wave 15s linear infinite;
-	-moz-animation:move-wave 15s linear infinite;
-	animation:move-wave 15s linear infinite;
-}
-
-@keyframes move-wave {
-	0% {
-		transform:translateX(0) translateZ(0) scaleY(1);
-	}
-
-	50% {
-		transform:translateX(-25%) translateZ(0) scaleY(0.55);
-	}
-
-	100% {
-		transform:translateX(-50%) translateZ(0) scaleY(1);
-	}
-}
 
 .custom-btn:hover  i {
 	font-size: 27px;
@@ -1577,7 +1495,7 @@ input:focus, textarea:focus, input.notice, textarea.notice {
 	text-align:center;
 	/*width:0px;*/
 	height:0px;
-	padding:20px;
+	padding:17px;
 	border-top-right-radius: 	20px;
 	border-top-left-radius: 	20px;
 	border-bottom-right-radius: 20px;
@@ -1588,7 +1506,7 @@ input:focus, textarea:focus, input.notice, textarea.notice {
 	color:#FFFFFF;
 }
 .icon i {
-	font-size:20px;
+	font-size:16px;
 	position:absolute;
 	left:9px;
 	top:10px;
@@ -1612,11 +1530,11 @@ input:focus, textarea:focus, input.notice, textarea.notice {
 	-webkit-transition: 0.5s;
 }
 .icon.social.fb i {
-	left:13px;
-	top:10px;
+	left:12px;
+	top:9px;
 }
 .icon.social.tw i {
-	left:11px;
+	left:9px;
 }
 .icon.social.in i {
 	left:11px;
@@ -1760,7 +1678,7 @@ input, select {
 	color: #BBB; }
 .tel-input-form{ margin-bottom: 30px;}
 .tel-input-form button {
-	font-family: Product Sans;
+	/*font-family: Product Sans;*/
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -1882,7 +1800,7 @@ button:hover {
 	border-radius: 20px;
 	padding:15px 5px 0px;
 	width: 328px;
-	margin-left: 48px;
+	/*margin-left: 48px;*/
 }
 #app-features .feature-5{
 	border: 1px solid #EB5757;

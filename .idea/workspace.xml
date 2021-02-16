@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="218cb1b9-5332-4bff-bed8-9bc008060e10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/feature-img-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="119" column="76" lean-forward="true" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
+            <state relative-caret-position="195">
+              <caret line="260" column="45" lean-forward="true" selection-start-line="260" selection-start-column="45" selection-end-line="260" selection-end-column="45" />
               <folding>
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -38,27 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="1886" column="13" selection-start-line="1886" selection-start-column="13" selection-end-line="1886" selection-end-column="13" />
-              <caret line="1877" column="13" selection-start-line="1877" selection-start-column="13" selection-end-line="1877" selection-end-column="13" />
-              <caret line="1870" column="13" selection-start-line="1870" selection-start-column="13" selection-end-line="1870" selection-end-column="13" />
-              <caret line="1863" column="13" lean-forward="true" selection-start-line="1863" selection-start-column="13" selection-end-line="1863" selection-end-column="13" />
-              <caret line="1855" column="13" selection-start-line="1855" selection-start-column="13" selection-end-line="1855" selection-end-column="13" />
-              <caret line="1852" column="13" selection-start-line="1852" selection-start-column="13" selection-end-line="1852" selection-end-column="13" />
-              <caret line="1848" column="13" selection-start-line="1848" selection-start-column="13" selection-end-line="1848" selection-end-column="13" />
-              <caret line="1842" column="13" lean-forward="true" selection-start-line="1842" selection-start-column="13" selection-end-line="1842" selection-end-column="13" />
-              <caret line="1838" column="13" lean-forward="true" selection-start-line="1838" selection-start-column="13" selection-end-line="1838" selection-end-column="13" />
-              <caret line="1829" column="13" selection-start-line="1829" selection-start-column="13" selection-end-line="1829" selection-end-column="13" />
-              <caret line="1826" column="13" lean-forward="true" selection-start-line="1826" selection-start-column="13" selection-end-line="1826" selection-end-column="13" />
-              <caret line="1822" column="13" selection-start-line="1822" selection-start-column="13" selection-end-line="1822" selection-end-column="13" />
-              <caret line="1805" column="13" selection-start-line="1805" selection-start-column="13" selection-end-line="1805" selection-end-column="13" />
-              <caret line="1802" column="13" selection-start-line="1802" selection-start-column="13" selection-end-line="1802" selection-end-column="13" />
-              <caret line="1799" column="13" selection-start-line="1799" selection-start-column="13" selection-end-line="1799" selection-end-column="13" />
-              <caret line="1796" column="13" selection-start-line="1796" selection-start-column="13" selection-end-line="1796" selection-end-column="13" />
-              <caret line="1795" column="13" selection-start-line="1795" selection-start-column="13" selection-end-line="1795" selection-end-column="13" />
+            <state relative-caret-position="231">
+              <caret line="1802" lean-forward="true" selection-start-line="1802" selection-end-line="1802" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -85,8 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.iti__country-list</find>
-      <find>bounce-effect</find>
       <find>.banner-text h1</find>
       <find>.mean-container .mean-nav</find>
       <find>.service-single</find>
@@ -104,7 +87,6 @@
       <find>.footer-items ul li a</find>
       <find>.social-icons .fa-facebook-f</find>
       <find>footer</find>
-      <find>.icon</find>
       <find>service-single</find>
       <find>fb</find>
       <find>.icon.social</find>
@@ -113,8 +95,11 @@
       <find>#app-features-2 .box-item .icon-f</find>
       <find>#app-features-2 .box-item .text h4</find>
       <find>col-12 col-lg-4 res-margin wow fadeInUp</find>
-      <find>Simple and Convenient</find>
       <find>#services3 .service-single</find>
+      <find>Simple and Convenient</find>
+      <find>.icon</find>
+      <find>.icon.social.fb i</find>
+      <find>feat</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -128,9 +113,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/intlTelInput.css" />
         <option value="$PROJECT_DIR$/css/meanmenu.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -151,11 +136,6 @@
             <path>
               <item name="bellbizzer-v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="bellbizzer-v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bellbizzer-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bellbizzer-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bellbizzer-v2" type="b2602c69:ProjectViewProjectNode" />
@@ -214,18 +194,18 @@
       <workItem from="1613312017798" duration="110000" />
       <workItem from="1613312129711" duration="11898000" />
       <workItem from="1613325500935" duration="314000" />
-      <workItem from="1613390389524" duration="8127000" />
+      <workItem from="1613390389524" duration="10150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20449000" />
+    <option name="totallyTimeSpent" value="22472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.260181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.260181" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,7 +218,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12845528" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36260164" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -267,29 +247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="1886" column="13" selection-start-line="1886" selection-start-column="13" selection-end-line="1886" selection-end-column="13" />
-          <caret line="1877" column="13" selection-start-line="1877" selection-start-column="13" selection-end-line="1877" selection-end-column="13" />
-          <caret line="1870" column="13" selection-start-line="1870" selection-start-column="13" selection-end-line="1870" selection-end-column="13" />
-          <caret line="1863" column="13" lean-forward="true" selection-start-line="1863" selection-start-column="13" selection-end-line="1863" selection-end-column="13" />
-          <caret line="1855" column="13" selection-start-line="1855" selection-start-column="13" selection-end-line="1855" selection-end-column="13" />
-          <caret line="1852" column="13" selection-start-line="1852" selection-start-column="13" selection-end-line="1852" selection-end-column="13" />
-          <caret line="1848" column="13" selection-start-line="1848" selection-start-column="13" selection-end-line="1848" selection-end-column="13" />
-          <caret line="1842" column="13" lean-forward="true" selection-start-line="1842" selection-start-column="13" selection-end-line="1842" selection-end-column="13" />
-          <caret line="1838" column="13" lean-forward="true" selection-start-line="1838" selection-start-column="13" selection-end-line="1838" selection-end-column="13" />
-          <caret line="1829" column="13" selection-start-line="1829" selection-start-column="13" selection-end-line="1829" selection-end-column="13" />
-          <caret line="1826" column="13" lean-forward="true" selection-start-line="1826" selection-start-column="13" selection-end-line="1826" selection-end-column="13" />
-          <caret line="1822" column="13" selection-start-line="1822" selection-start-column="13" selection-end-line="1822" selection-end-column="13" />
-          <caret line="1805" column="13" selection-start-line="1805" selection-start-column="13" selection-end-line="1805" selection-end-column="13" />
-          <caret line="1802" column="13" selection-start-line="1802" selection-start-column="13" selection-end-line="1802" selection-end-column="13" />
-          <caret line="1799" column="13" selection-start-line="1799" selection-start-column="13" selection-end-line="1799" selection-end-column="13" />
-          <caret line="1796" column="13" selection-start-line="1796" selection-start-column="13" selection-end-line="1796" selection-end-column="13" />
-          <caret line="1795" column="13" selection-start-line="1795" selection-start-column="13" selection-end-line="1795" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-979">
@@ -299,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="119" column="76" lean-forward="true" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
+        <state relative-caret-position="195">
+          <caret line="260" column="45" lean-forward="true" selection-start-line="260" selection-start-column="45" selection-end-line="260" selection-end-column="45" />
           <folding>
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -316,6 +273,13 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="1802" lean-forward="true" selection-start-line="1802" selection-end-line="1802" selection-end-column="24" />
         </state>
       </provider>
     </entry>
