@@ -1793,17 +1793,17 @@ button:hover {
 #result {margin-bottom: 100px; }
 
 /*----gggggggg---*/
-#app-features-2{padding: 100px 0}
-#app-features-2 .content-left {
+#app-features{padding: 100px 0}
+#app-features .content-left {
 	position: relative;
 }
-#app-features-2 .content-right {
+#app-features .content-right {
 	position: relative;
 }
-#app-features-2 .box-item {
+#app-features .box-item {
 	margin: 30px 0;
 }
-#app-features-2 .box-item .icon-f {
+#app-features .box-item .icon-f {
 	text-align: center;
 	margin: 0px 0px;
 	display: inline-block;
@@ -1820,14 +1820,14 @@ button:hover {
 	transition: all .2s linear;
 }
 
-#app-features-2 .content-left span {
+#app-features .content-left span {
 	float: left;
 	margin-left: 25px;
 }
-#app-features-2 .box-item {
+#app-features .box-item {
 	margin: 30px 0;
 }
-#app-features-2 .box-item .icon-f i {
+#app-features .box-item .icon-f i {
 	color: #fff;
 	font-size: 24px;
 	line-height: 60px;
@@ -1836,24 +1836,24 @@ button:hover {
 	-o-transition: all .2s linear;
 	transition: all .2s linear;
 }
-#app-features-2 .content-left .text {
+#app-features .content-left .text {
 	margin-left: 60px;
 	text-align: left;
 }
-#app-features-2 .box-item .text h4 {
+#app-features .box-item .text h4 {
 	font-weight: 500;
 	font-size: 22px;
 	margin-bottom: 15px;
 	line-height: 22px;
 }
-#app-features-2 .box-item .text p {
+#app-features .box-item .text p {
 	font-size: 14px;
 	line-height: 26px;
 }
-#app-features-2 .content-right .text {
+#app-features .content-right .text {
 	margin-left: 90px;
 }
-#app-features-2 .feature-1{
+#app-features .feature-1{
 	border: 1px solid #951BB9;
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgb(242 186 247 / 15%);
@@ -1861,21 +1861,21 @@ button:hover {
 	padding:15px 5px 0px;
 }
 
-#app-features-2 .feature-2{
+#app-features .feature-2{
 	border: 1px solid #FDBE00;
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
 	padding:15px 5px 0px;
 }
-#app-features-2 .feature-3{
+#app-features .feature-3{
 	border: 1px solid #56CCF2;
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
 	padding:15px 5px 0px;
 }
-#app-features-2 .feature-4{
+#app-features .feature-4{
 	border: 1px solid #27AE60;
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
@@ -1884,7 +1884,7 @@ button:hover {
 	width: 328px;
 	margin-left: 48px;
 }
-#app-features-2 .feature-5{
+#app-features .feature-5{
 	border: 1px solid #EB5757;
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);

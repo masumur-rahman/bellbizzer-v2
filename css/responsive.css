@@ -34,7 +34,7 @@
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-    #app-features-2 .feature-4 {
+    #app-features .feature-4 {
          width: 100%;
          margin-left: 0px;
     }
@@ -52,12 +52,12 @@
 
 @media (max-width: 479px) {
     .show-box img{width: 320px}
-    #app-features-2 .feature-4 {
+    #app-features .feature-4 {
         width: 100%;
         margin-left: 0px;
     }
 
-#app-features-2 .feature-4 {
+#app-features .feature-4 {
      margin-left: 0px;
 }
     .scroll-bg-content h1 {
