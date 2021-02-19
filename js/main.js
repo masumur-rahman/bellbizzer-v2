@@ -275,5 +275,8 @@ $('.portfolio-menu button').on('click', function(event) {
     //         }
     //     ]
     // });
+	$( ".close-icon" ).click(function() {
+		$( ".top-bar" ).hide();
+	});
 
 })(jQuery);	

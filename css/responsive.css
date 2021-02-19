@@ -34,6 +34,9 @@
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+    .top-bar p {
+        font-size: 14px;
+    }
     #app-features .feature-4 {
          width: 100%;
          margin-left: 0px;
@@ -51,6 +54,16 @@
 }
 
 @media (max-width: 479px) {
+    .top-bar { height: 70px; }
+    .top-bar p {
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .top-bar span {
+        padding: 5px;
+        font-size: 11px;
+    }
+    .break-mob{display: block}
     .show-box img{width: 320px}
     #app-features .feature-4 {
         width: 100%;
