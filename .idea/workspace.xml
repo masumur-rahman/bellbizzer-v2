@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="218cb1b9-5332-4bff-bed8-9bc008060e10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="1851" column="13" selection-start-line="1851" selection-start-column="13" selection-end-line="1851" selection-end-column="13" />
+            <state relative-caret-position="18">
+              <caret line="1659" selection-start-line="1659" selection-end-line="1673" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -118,7 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>foot</find>
       <find>bill</find>
       <find>.footer-items ul li a</find>
       <find>.social-icons .fa-facebook-f</find>
@@ -148,6 +148,7 @@
       <find>top-bar</find>
       <find>.top-bar</find>
       <find>.banner</find>
+      <find>input</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -248,12 +249,12 @@
       <workItem from="1613390389524" duration="11191000" />
       <workItem from="1613567241223" duration="1503000" />
       <workItem from="1613671191802" duration="22000" />
-      <workItem from="1613746651002" duration="15166000" />
+      <workItem from="1613746651002" duration="15925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40204000" />
+    <option name="totallyTimeSpent" value="40963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -381,8 +382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1851" column="13" selection-start-line="1851" selection-start-column="13" selection-end-line="1851" selection-end-column="13" />
+        <state relative-caret-position="18">
+          <caret line="1659" selection-start-line="1659" selection-end-line="1673" selection-end-column="1" />
         </state>
       </provider>
     </entry>
