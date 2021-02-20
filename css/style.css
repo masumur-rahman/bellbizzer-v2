@@ -503,16 +503,18 @@ label {
 }
 
 /* Download buttons */
-.button-store .custom-btn {
+.button-store .custom-btn-1 {
 	min-width:180px;
 }
-
+.button-store .custom-btn-2 {
+	min-width:180px;
+}
 .button-store .custom-btn.auto-width {
 	min-width:auto;
 }
 
 .button-store .custom-btn {
-	padding:10px 25px;
+	padding: 11px 25px;
 	border:1px solid #fff;
 	font-weight:500;
 	background: #0B2540;
@@ -546,6 +548,64 @@ label {
 .button-store .custom-btn:hover {
 	border-color:rgb(11 37 64 / 32%);
 	background-color:#fff;
+}
+
+.button-store .custom-btn-2.auto-width {
+	min-width:auto;
+}
+
+.button-store .custom-btn-2 {
+	padding: 10px 25px 13px;
+	border:1px solid #fff;
+	font-weight:500;
+	background: #0B2540;
+	border-radius: 5px;
+}
+
+.button-store .custom-btn-2 i {
+	font-size:27px;
+	margin-right:10px;
+	color:#fff;
+	transition:all 0.3s;
+}
+
+.button-store .custom-btn-2 p {
+	font-size:12px;
+	margin:0;
+	line-height:1.4;
+	color:#fff;
+	font-weight:500;
+	transition:all 0.3s;
+}
+
+.button-store .custom-btn-2 p span {
+	display:block;
+	font-size:17px;
+	color:#fff;
+	font-weight:700;
+	transition:all 0.3s;
+}
+
+.button-store .custom-btn-2:hover {
+	border-color:rgb(11 37 64 / 32%);
+	background-color:#fff;
+	color: #000;
+}
+
+.button-store .custom-btn-2:hover p{
+	font-size:12px;
+	margin:0;
+	line-height:1.4;
+	color:#7c4fe0;
+	font-weight:500;
+	transition:all 0.3s;
+}
+.button-store .custom-btn-2:hover span{
+	display:block;
+	font-size:17px;
+	color:#7c4fe0;
+	font-weight:700;
+	transition:all 0.3s;
 }
 /*.banner:before {*/
 	/*background: linear-gradient(-47deg, #c955ec 0%, #951bb9 100%);*/
@@ -1449,7 +1509,10 @@ button:hover {
 	text-align: left;
 }
 .button-group a {
-	margin-right: 10px;
+	background-color: #fff;
+	padding: 12px 45px 0px 45px;
+	border-radius: 40px;
+	margin-bottom: 8px;
 }
 .store-buttons.store-black img {
 	max-width: 170px;
