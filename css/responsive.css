@@ -116,11 +116,17 @@
         .tab .nav-tabs li a{ text-align: center; }
         .banner{
             height: auto;
+            padding-top: 200px;
         }
     .img-content-two img {
         padding-top: 30px;
     }
-    .tel-input-form input{width: 245px}
+    .tel-input-form input{width: 234px}
 
+}
+@media (max-width: 321px){
+    .tel-input-form input {
+        width: 181px;
+    }
 }
 
