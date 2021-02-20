@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 479px) {
+    .ab-split {
+        display: contents;
+    }
     .top-bar { height: 70px; }
     .top-bar p {
         line-height: 30px;
