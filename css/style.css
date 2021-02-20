@@ -1844,7 +1844,7 @@ button:focus {
 	margin: 12px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 13px;
 	text-transform: lowercase;
 	color: #ffffff !important;
 	background-color: transparent;
@@ -1852,14 +1852,20 @@ button:focus {
 .top-bar span input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: #fff;
 	opacity: 1; /* Firefox */
+	line-height: 3px;
+	font-size: 13px;
 }
 
 .top-bar span input:-ms-input-placeholder { /* Internet Explorer 10-11 */
 	color: #fff;
+	line-height: 3px;
+	font-size: 13px;
 }
 
 .top-bar span input::-ms-input-placeholder { /* Microsoft Edge */
 	color: #fff;
+	line-height: 3px;
+	font-size: 13px;
 }
 .fa-chevron-right{
 	font-size: 12px;
