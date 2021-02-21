@@ -1,13 +1,17 @@
+/*All Desktop*/
+@media (min-width: 1200px) {
+    .top-30{margin-top: 30px;}
+}
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
+    .top-30{    margin-top: 30px;}
 
 }
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+.top-30{    margin-top: 30px;}
 
 }
 

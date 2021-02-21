@@ -1847,6 +1847,7 @@ button:hover {
 	box-shadow: 30px 34px 34px rgb(242 186 247 / 15%);
 	border-radius: 20px;
 	padding:15px 5px 0px;
+	background-color: #fff;
 }
 
 #app-features .feature-2{
@@ -1855,6 +1856,7 @@ button:hover {
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
 	padding:15px 5px 0px;
+	background-color: #fff;
 }
 #app-features .feature-3{
 	border: 1px solid #56CCF2;
@@ -1862,6 +1864,7 @@ button:hover {
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
 	padding:15px 5px 0px;
+	background-color: #fff;
 }
 #app-features .feature-4{
 	border: 1px solid #27AE60;
@@ -1869,6 +1872,7 @@ button:hover {
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
 	padding:15px 5px 0px;
+	background-color: #fff;
 
 }
 button:focus {
