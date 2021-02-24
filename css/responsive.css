@@ -1,7 +1,23 @@
 /*All Desktop*/
 @media (min-width: 1200px) {
     .top-30{margin-top: 30px;}
+    .show-box-0 img{
+        position: absolute;
+        left: -90px;
+        top: -62px;
+        z-index: 0;
+        width: 600px;
+    }
+    #app-features .feature-4 {
+       margin-left: 35px;
+    }
+    #app-features .feature-22 {
+
+        margin-right: -22px;
+    }
+
 }
+
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
     .top-30{    margin-top: 30px;}
@@ -12,13 +28,33 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 .top-30{    margin-top: 30px;}
-
+    .show-box-0 img{
+        position: relative;
+        left: 20px;
+        top: 0px;
+        z-index: 0;
+        width: 400px;
+    }
 }
-
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .show-box-0 img{
+        position: absolute;
+        left: -90px;
+        top: -62px;
+        z-index: 0;
+        width: 500px;
+    }
+}
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .show-box-0 img{
+        position: relative;
+        left: 40px;
+        top: 0px;
+        z-index: 0;
+        width: 70%;
+    }
 
 }
 
@@ -38,6 +74,13 @@
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+    .show-box-0 img{
+        position: relative;
+        left: 80px;
+        top: 0px;
+        z-index: 0;
+        width: 70%;
+    }
     .top-bar p {
         font-size: 14px;
     }
@@ -58,6 +101,16 @@
 }
 
 @media (max-width: 479px) {
+    #app-features {
+         margin: 0px 0px;
+    }
+    .show-box-0 img{
+        position: relative;
+        left: 40px;
+        top: 0px;
+        z-index: 0;
+        width: 300px;
+    }
     .ab-split {
         display: contents;
     }
