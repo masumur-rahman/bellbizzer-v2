@@ -10,15 +10,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="484" selection-start-line="484" selection-end-line="585" selection-end-column="9" />
+            <state relative-caret-position="259">
+              <caret line="216" column="58" selection-start-line="216" selection-start-column="48" selection-end-line="216" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
@@ -66,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="231">
+              <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -88,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#app-features-2 .box-item .icon-f</find>
       <find>#app-features-2 .box-item .text h4</find>
       <find>col-12 col-lg-4 res-margin wow fadeInUp</find>
       <find>#services3 .service-single</find>
@@ -118,6 +116,7 @@
       <find>#app-features .box-item</find>
       <find>h4.service-2-hed</find>
       <find>show-box d-flex top-30</find>
+      <find>Free Listings</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -132,11 +131,11 @@
         <option value="$PROJECT_DIR$/css/intlTelInput.css" />
         <option value="$PROJECT_DIR$/css/meanmenu.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about-us.html" />
         <option value="$PROJECT_DIR$/contact-us.html" />
+        <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -164,6 +163,12 @@
               <item name="bellbizzer-v2" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bellbizzer-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bellbizzer-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="home-icon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -178,8 +183,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MY-WORK-2020\bellbizzer-v2\img" />
       <recent name="D:\MY-WORK-2020\bellbizzer-v2\img\home-icon" />
+      <recent name="D:\MY-WORK-2020\bellbizzer-v2\img" />
       <recent name="D:\MY-WORK-2020\bellbizzer-v2\img\about-icon" />
       <recent name="D:\MY-WORK-2020\bellbizzer-v2\img\icon" />
       <recent name="D:\MY-WORK-2020\bellbizzer-v2\img2" />
@@ -214,12 +219,12 @@
       <workItem from="1613567241223" duration="1503000" />
       <workItem from="1613671191802" duration="22000" />
       <workItem from="1613746651002" duration="22844000" />
-      <workItem from="1614178693689" duration="5810000" />
+      <workItem from="1614178693689" duration="6053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53692000" />
+    <option name="totallyTimeSpent" value="53935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -325,13 +330,6 @@
     <entry file="file://$PROJECT_DIR$/img/phone-moc.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -371,14 +369,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/home-icon/save-money.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="484" selection-start-line="484" selection-end-line="585" selection-end-column="9" />
+        <state relative-caret-position="259">
+          <caret line="216" column="58" selection-start-line="216" selection-start-column="48" selection-end-line="216" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
@@ -386,6 +386,13 @@
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
         </state>
       </provider>
     </entry>
