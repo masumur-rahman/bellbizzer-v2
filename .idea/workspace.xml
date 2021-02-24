@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="218cb1b9-5332-4bff-bed8-9bc008060e10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="216" column="58" selection-start-line="216" selection-start-column="48" selection-end-line="216" selection-end-column="58" />
+            <state relative-caret-position="133">
+              <caret line="47" column="146" selection-start-line="47" selection-start-column="146" selection-end-line="47" selection-end-column="146" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -70,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="110" column="19" lean-forward="true" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            <state relative-caret-position="131">
+              <caret line="161" column="19" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -79,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="807" column="17" lean-forward="true" selection-start-line="807" selection-start-column="17" selection-end-line="807" selection-end-column="17" />
+            <state relative-caret-position="113">
+              <caret line="649" column="29" selection-start-line="649" selection-start-column="29" selection-end-line="649" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -89,8 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#app-features-2 .box-item .text h4</find>
-      <find>col-12 col-lg-4 res-margin wow fadeInUp</find>
       <find>#services3 .service-single</find>
       <find>Simple and Convenient</find>
       <find>.icon</find>
@@ -119,6 +119,8 @@
       <find>h4.service-2-hed</find>
       <find>show-box d-flex top-30</find>
       <find>Free Listings</find>
+      <find>.button-store .custom-btn-2</find>
+      <find>img.bounce-effect</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -133,10 +135,10 @@
         <option value="$PROJECT_DIR$/css/intlTelInput.css" />
         <option value="$PROJECT_DIR$/css/meanmenu.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about-us.html" />
         <option value="$PROJECT_DIR$/contact-us.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
@@ -221,12 +223,12 @@
       <workItem from="1613567241223" duration="1503000" />
       <workItem from="1613671191802" duration="22000" />
       <workItem from="1613746651002" duration="22844000" />
-      <workItem from="1614178693689" duration="6146000" />
+      <workItem from="1614178693689" duration="6746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54028000" />
+    <option name="totallyTimeSpent" value="54628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -245,7 +247,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40325204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32682925" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -332,13 +334,6 @@
     <entry file="file://$PROJECT_DIR$/img/phone-moc.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="807" column="17" lean-forward="true" selection-start-line="807" selection-start-column="17" selection-end-line="807" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -376,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="216" column="58" selection-start-line="216" selection-start-column="48" selection-end-line="216" selection-end-column="58" />
+        <state relative-caret-position="133">
+          <caret line="47" column="146" selection-start-line="47" selection-start-column="146" selection-end-line="47" selection-end-column="146" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -391,10 +386,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="649" column="29" selection-start-line="649" selection-start-column="29" selection-end-line="649" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="110" column="19" lean-forward="true" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        <state relative-caret-position="131">
+          <caret line="161" column="19" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
         </state>
       </provider>
     </entry>

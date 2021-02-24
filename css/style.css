@@ -561,6 +561,7 @@ label {
 	font-weight:500;
 	background: #0B2540;
 	border-radius: 5px;
+	margin-left: 5px !important;
 }
 
 .button-store .custom-btn-2 i {
@@ -646,7 +647,7 @@ label {
 	-moz-animation:bounce-hero 3s infinite;
 	animation:bounce-hero 3s infinite;
 }
-img.bounce-effect{width: 300px}
+img.bounce-effect{width: 100%}
 
 @keyframes bounce-hero {
 	0% 		{top:0px;}
