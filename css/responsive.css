@@ -3,10 +3,10 @@
     .top-30{margin-top: 30px;}
     .show-box-0 img{
         position: absolute;
-        left: -90px;
-        top: -62px;
+        left: -181px;
+        top: -108px;
         z-index: 0;
-        width: 600px;
+        width: 764px;
     }
     #app-features .feature-4 {
        margin-left: 35px;
@@ -109,10 +109,10 @@
     }
     .show-box-0 img{
         position: relative;
-        left: 20px;
+        left: -7px;
         top: 0px;
         z-index: 0;
-        width: 300px;
+        max-width: 100%;
     }
     .ab-split {
         display: contents;

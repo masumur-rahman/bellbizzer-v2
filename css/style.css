@@ -1762,6 +1762,7 @@ input, select {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin-left: -4px;
+	padding: 10px 15px;
 }
 .tel-input-form input{
 	border: 1px solid #E0E0E0 !important;
@@ -1791,10 +1792,10 @@ button:hover {
 }
 .show-box-0 img{
 	position: absolute;
-	left: -90px;
-	top: -62px;
+	left: -181px;
+	top: -108px;
 	z-index: 0;
-	width: 600px;
+	width: 764px;
 }
 #app-features .content-right {
 	position: relative;
@@ -1856,7 +1857,7 @@ button:hover {
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgb(242 186 247 / 15%);
 	border-radius: 20px;
-	padding:15px 5px 0px;
+	padding:15px 5px 20px;
 	background-color: #fff;
 }
 
@@ -1865,7 +1866,7 @@ button:hover {
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
-	padding:15px 5px 0px;
+	padding:15px 5px 20px;
 	background-color: #fff;
 }
 #app-features .feature-22 {
@@ -1889,7 +1890,7 @@ button:hover {
 	box-sizing: border-box;
 	box-shadow: 30px 34px 34px rgba(242, 186, 247, 0.15);
 	border-radius: 20px;
-	padding:15px 5px 0px;
+	padding:15px 5px 20px;
 	background-color: #fff;
 
 }
