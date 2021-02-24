@@ -487,15 +487,16 @@ label {
 }
 
 .banner-text h1 {
-	font-size:60px;
+	font-size:58px;
 	color:#0B2540;
 	margin-bottom:30px;
+	font-weight: 600;
 }
 
 .banner-text p {
 	/*font-family: Product Sans;*/
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 30px;
 	color:#868686;
@@ -747,14 +748,14 @@ section.parallax {
 .scroll-bg-img img{width: 100%}
 .scroll-bg-content h1{
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 44px;
 	line-height: 85px;
 	color: #FFFFFF;
 }
 .scroll-bg-content p{
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 30px;
 	color: #FFFFFF;
@@ -805,9 +806,9 @@ section.parallax {
 	margin-bottom: 10px;
 }
 h4.service-2-hed{
-	font-size: 17px;
+	font-size: 22px;
 	margin: 35px 0 15px;
-	font-weight: 600;
+	font-weight: 500;
 	color: #0B2540;
 }
 /*-------- common hero banner -----*/
@@ -857,13 +858,14 @@ h4.service-2-hed{
 .service-single h5{
 	font-size: 25px;
 	margin: 35px 0 15px;
-	font-weight: 600;
+	font-weight: 500;
 	color: #0B2540;
 }
 .service-single p {
-	font-size: 15px;
+	font-size: 16px;
 	color: #999;
 	margin: 0;
+	font-weight: 400;
 }
 #ext-service .section-title{
 	padding: 60px 0;
@@ -1713,7 +1715,7 @@ h3.bg-title{
 	color: #fff;
 	padding: 15px;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 35px;
 	line-height: 45px;
 }
@@ -1841,8 +1843,9 @@ button:hover {
 	line-height: 22px;
 }
 #app-features .box-item .text p {
-	font-size: 14px;
+	font-size: 14.5px;
 	line-height: 26px;
+	font-weight: 400;
 }
 #app-features .content-right .text {
 	margin-left: 90px;
