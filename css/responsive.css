@@ -101,9 +101,7 @@
 }
 
 @media (max-width: 479px) {
-    .tel-input-form button{
-        padding: 10px 10px;
-    }
+
     #app-features {
          margin: 0px 0px;
     }
@@ -185,6 +183,9 @@
         padding-top: 30px;
     }
     .tel-input-form input{width: 233px}
+    .tel-input-form button{
+        padding: 10px 10px !important;
+    }
 
 }
 @media (max-width: 321px){
