@@ -186,6 +186,10 @@
     .tel-input-form button{
         padding: 10px 10px !important;
     }
+    .button-store .custom-btn-2 {
+
+         margin-left: 0px !important;
+    }
 
 }
 @media (max-width: 321px){
