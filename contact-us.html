@@ -111,13 +111,13 @@
                     <!-- Contact form -->
                     <div class="col-12 col-lg-7">
 
-                        <form class="mb-5">
+                        <form class="mb-5"  action="mail.php" method="POST">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>
                                             <p class="label-txt">Name</p>
-                                            <input type="text" class="input">
+                                            <input type="text" name="name" id="name" class="input">
                                             <div class="line-box">
                                                 <div class="line"></div>
                                             </div>
@@ -126,7 +126,7 @@
                                     <div class="col-md-6">
                                         <label>
                                             <p class="label-txt">Email</p>
-                                            <input type="email" class="input">
+                                            <input type="email" name="email" id="email" class="input">
                                             <div class="line-box">
                                                 <div class="line"></div>
                                             </div>
@@ -135,7 +135,7 @@
                                     <div class="col-md-12">
                                         <label>
                                             <p class="label-txt">Subject</p>
-                                            <input type="text" class="input">
+                                            <input type="text" name="subject" id="subject" class="input">
                                             <div class="line-box">
                                                 <div class="line"></div>
                                             </div>
@@ -144,7 +144,7 @@
                                     <div class="col-md-12">
                                         <label>
                                             <p class="label-txt">Message</p>
-                                            <textarea class="input" type="textarea" id="message"  maxlength="140" rows="4"></textarea>
+                                            <textarea name="message" class="input" type="textarea" id="message"  maxlength="140" rows="4"></textarea>
                                             <div class="line-box">
                                                 <div class="line"></div>
                                             </div>
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
 
-                            <button type="submit" class="contact-submit">Send Message</button>
+                            <button type="submit" name="submit" class="contact-submit">Send Message</button>
                         </form>
 
                         <!-- Submit Results -->
@@ -200,9 +200,9 @@
 
                                         <div class="form-group">
                                             <span class="input-icon"><i class="fas fa-paper-plane"></i></span>
-                                            <input class="form-control" type="email" placeholder="Email">
+                                            <input class="form-control" name="email" id="f_email" type="email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                                         </div>
-                                        <button class="btn signin">Subscribe</button>
+                                        <button class="btn signin f-subscribe">Subscribe</button>
 
                                     </form>
 
@@ -216,9 +216,9 @@
                                 <!-- Footer Title -->
                                 <h3 class="footer-title mb-2">Useful Links</h3>
                                 <ul>
-                                    <li class="py-2"><a href="index.html">Contact Us</a></li>
-                                    <li class="py-2"><a href="about-us.html">FAQ </a></li>
-                                    <li class="py-2"><a href="contact-us.html">Terms of Service</a></li>
+                                    <li class="py-2"><a href="contact-us.html">Contact Us</a></li>
+                                    <li class="py-2"><a href="faq.html">FAQ </a></li>
+                                    <li class="py-2"><a href="terms-service.html">Terms of Service</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -228,9 +228,9 @@
                                 <!-- Footer Title -->
                                 <h3 class="footer-title mb-2">Product Help</h3>
                                 <ul>
-                                    <li class="py-2"><a href="#">Security</a></li>
-                                    <li class="py-2"><a href="#">Pricing </a></li>
-                                    <li class="py-2"><a href="#">Privacy Policy</a></li>
+                                    <li class="py-2"><a href="security.html">Security</a></li>
+                                    <li class="py-2"><a href="pricing.html">Pricing </a></li>
+                                    <li class="py-2"><a href="privacy-policy.html">Privacy Policy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -253,10 +253,10 @@
                                 <div class="social-icons d-flex">
 
                                     <div class='demopadding'>
-                                        <div class='icon social fb'><i class='fab fa-facebook-f'></i></div>
-                                        <div class='icon social tw'><i class='fab fa-twitter'></i></div>
-                                        <div class='icon social vin'><i class='fab fa-linkedin'></i></div>
-                                        <div class='icon social insta'><i class='fab fa-instagram'></i></div>
+                                        <div class='icon social fb'><a href="https://www.facebook.com/BELLBIZZERinc/" target="_blank"><i class='fab fa-facebook-f'></i></a></div>
+                                        <div class='icon social tw'><a href="https://twitter.com/bellbizzer" target="_blank"><i class='fab fa-twitter'></i></a></div>
+                                        <div class='icon social vin'><a href="https://www.linkedin.com/company/bellbizzerinc/?viewAsMember=true" target="_blank"><i class='fab fa-linkedin'></i></a></div>
+                                        <div class='icon social insta'><a href="https://www.instagram.com/bellbizzer/" target="_blank"><i class='fab fa-instagram'></i></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -283,8 +283,8 @@
                 </div>
             </div>
         </footer>
-	
-	    <!-- JS here -->
+
+        <!-- JS here -->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-3.2.1.min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -299,6 +299,44 @@
         <script src="js/meanmenu.min.js"></script>
         <script src="js/aos.min.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/intlTelInput.js"></script>
+        <script src="js/utils.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+            var input = document.querySelector("#phone");
+            window.intlTelInput(input, {
+
+                utilsScript: "build/js/utils.js",
+            });
+            $(document).ready(function(){
+
+
+                $(".f-subscribe").click(function() {
+
+                    var email = $("#f_email").val();
+
+                    var dataString = '&email=' + email;
+
+                    $.ajax({
+                        type: "POST",
+                        url: "footer-mail.php",
+                        data: dataString,
+                        error: function (request, error) {
+                            //$('.output_message').text('Error Sending email!');
+                            alert('Error Sending email!');
+                        },
+                        success: function () {
+                            // $('.output_message').text('Message Sent!');
+                            alert('Mail Sent!');
+                        }
+
+                    });
+
+                    return false;
+                });
+            });
+        </script>
+
     </body>
 </html>

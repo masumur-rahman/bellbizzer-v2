@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-lg-12">
 
-                    <p>Be the first to know about our promotions, deals & updates ! <br class="break-mob"> <span><input type="text" name="email" id="form_email" placeholder="email@example.com"> <i id="email-submit" class="fas fa-chevron-right"></i></span></p>
+                    <p>Be the first to know about our promotions, deals & updates ! <br class="break-mob"> <span><input type="text" name="email" id="form_email" placeholder="email@example.com" required autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><button class="submit-btn" type="submit"><i id="email-submit" class="fas fa-chevron-right"></i></button></span></p>
 
                 </div>
             </div>
@@ -501,9 +501,9 @@
 
                                             <div class="form-group">
                                                 <span class="input-icon"><i class="fas fa-paper-plane"></i></span>
-                                                <input class="form-control" type="email" placeholder="Email">
+                                                <input class="form-control" name="email" id="f_email" type="email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                                             </div>
-                                            <button class="btn signin">Subscribe</button>
+                                            <button class="btn signin f-subscribe">Subscribe</button>
 
                                         </form>
 
@@ -517,9 +517,9 @@
                         <!-- Footer Title -->
                         <h3 class="footer-title mb-2">Useful Links</h3>
                         <ul>
-                            <li class="py-2"><a href="index.html">Contact Us</a></li>
-                            <li class="py-2"><a href="about-us.html">FAQ </a></li>
-                            <li class="py-2"><a href="contact-us.html">Terms of Service</a></li>
+                            <li class="py-2"><a href="contact-us.html">Contact Us</a></li>
+                            <li class="py-2"><a href="faq.html">FAQ </a></li>
+                            <li class="py-2"><a href="terms-service.html">Terms of Service</a></li>
                         </ul>
                     </div>
                 </div>
@@ -529,9 +529,9 @@
                         <!-- Footer Title -->
                         <h3 class="footer-title mb-2">Product Help</h3>
                         <ul>
-                            <li class="py-2"><a href="#">Security</a></li>
-                            <li class="py-2"><a href="#">Pricing </a></li>
-                            <li class="py-2"><a href="#">Privacy Policy</a></li>
+                            <li class="py-2"><a href="security.html">Security</a></li>
+                            <li class="py-2"><a href="pricing.html">Pricing </a></li>
+                            <li class="py-2"><a href="privacy-policy.html">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -554,10 +554,10 @@
                         <div class="social-icons d-flex">
 
                             <div class='demopadding'>
-                                <div class='icon social fb'><i class='fab fa-facebook-f'></i></div>
-                                <div class='icon social tw'><i class='fab fa-twitter'></i></div>
-                                <div class='icon social vin'><i class='fab fa-linkedin'></i></div>
-                                <div class='icon social insta'><i class='fab fa-instagram'></i></div>
+                                <div class='icon social fb'><a href="https://www.facebook.com/BELLBIZZERinc/" target="_blank"><i class='fab fa-facebook-f'></i></a></div>
+                                <div class='icon social tw'><a href="https://twitter.com/bellbizzer" target="_blank"><i class='fab fa-twitter'></i></a></div>
+                                <div class='icon social vin'><a href="https://www.linkedin.com/company/bellbizzerinc/?viewAsMember=true" target="_blank"><i class='fab fa-linkedin'></i></a></div>
+                                <div class='icon social insta'><a href="https://www.instagram.com/bellbizzer/" target="_blank"><i class='fab fa-instagram'></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -610,9 +610,8 @@
 
         utilsScript: "build/js/utils.js",
     });
-    $(function() {
-        $("#email-submit").click(function() {
-
+    $(document).ready(function(){
+        $(".submit-btn").click(function() {
 
             var email = $("#form_email").val();
 
@@ -620,11 +619,41 @@
 
             $.ajax({
                 type: "POST",
-                url: "mail-1.php",
+                url: "top-header-email.php",
                 data: dataString,
-                success: function(){
-                    $('.success').fadeIn(1000);
+                error: function (request, error) {
+                    //$('.output_message').text('Error Sending email!');
+                    alert('Error Sending email!');
+                },
+                success: function () {
+                   // $('.output_message').text('Message Sent!');
+                    alert('Mail Sent!');
                 }
+
+            });
+
+            return false;
+        });
+
+        $(".f-subscribe").click(function() {
+
+            var email = $("#f_email").val();
+
+            var dataString = '&email=' + email;
+
+            $.ajax({
+                type: "POST",
+                url: "footer-mail.php",
+                data: dataString,
+                error: function (request, error) {
+                    //$('.output_message').text('Error Sending email!');
+                    alert('Error Sending email!');
+                },
+                success: function () {
+                   // $('.output_message').text('Message Sent!');
+                    alert('Mail Sent!');
+                }
+
             });
 
             return false;
